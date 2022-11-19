@@ -8,7 +8,7 @@ open class OddsApi: BaseApi, Api {
     
     var apiKey: String
     
-    init(withKey apiKey: String) {
+    public init(withKey apiKey: String) {
         self.apiKey = apiKey
     }
         
