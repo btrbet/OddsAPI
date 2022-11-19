@@ -8,7 +8,7 @@
 import Foundation
 
 @available(macOS 12.0, *)
-class BaseApi {
+open class BaseApi {
 
     func sendRequest<T: Decodable>(url: URL?, responseModel: T.Type) async -> Result<T, ApiError> {
         

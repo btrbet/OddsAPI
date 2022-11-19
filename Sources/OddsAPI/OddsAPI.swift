@@ -4,7 +4,7 @@ protocol Api {
 }
 
 @available(macOS 12.0, *)
-class OddsApi: BaseApi, Api {
+open class OddsApi: BaseApi, Api {
     
     var apiKey: String
     
