@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Outcome: Codable {
-    let name: String
-    let price: Int
+public struct Outcome: Codable {
+    public let name: String
+    public let price: Int
 }

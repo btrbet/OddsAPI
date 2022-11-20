@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Bookmaker: Codable {
-    let key, title: String
-    let lastUpdate: String
-    let markets: [Market]
+public struct Bookmaker: Codable {
+    public let key, title: String
+    public let lastUpdate: String
+    public let markets: [Market]
 
     enum CodingKeys: String, CodingKey {
         case key, title

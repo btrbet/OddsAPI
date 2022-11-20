@@ -5,7 +5,7 @@
 //  Created by zach wick on 11/9/22.
 //
 
-enum ApiError: Error {
+public enum ApiError: Error {
     case badRequest
     case parsingError
     case unauthorized

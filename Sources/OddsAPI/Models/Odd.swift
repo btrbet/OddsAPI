@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct Odd: Codable {
-    let id, sportKey, sportTitle: String
-    let commenceTime: String
-    let homeTeam, awayTeam: String
-    let bookmakers: [Bookmaker]
+public struct Odd: Codable {
+    public let id, sportKey, sportTitle: String
+    public let commenceTime: String
+    public let homeTeam, awayTeam: String
+    public let bookmakers: [Bookmaker]
 
     enum CodingKeys: String, CodingKey {
         case id
@@ -24,4 +24,4 @@ struct Odd: Codable {
     }
 }
 
-typealias Odds = [Odd]
+public typealias Odds = [Odd]

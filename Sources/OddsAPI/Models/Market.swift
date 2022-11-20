@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Market: Codable {
-    let key: String
-    let outcomes: [Outcome]
+public struct Market: Codable {
+    public let key: String
+    public let outcomes: [Outcome]
 }
